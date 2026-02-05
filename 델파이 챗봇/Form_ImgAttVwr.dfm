@@ -1,0 +1,77 @@
+object FormImgAttVwr: TFormImgAttVwr
+  Left = 319
+  Top = 200
+  Width = 1152
+  Height = 648
+  BorderIcons = [biSystemMenu, biMaximize]
+  Caption = 'FormImgAttVwr'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object AdvSmoothPanel8: TAdvSmoothPanel
+    Left = 0
+    Top = 0
+    Width = 1136
+    Height = 609
+    Cursor = crDefault
+    Caption.HTMLFont.Charset = DEFAULT_CHARSET
+    Caption.HTMLFont.Color = clWindowText
+    Caption.HTMLFont.Height = -11
+    Caption.HTMLFont.Name = 'Tahoma'
+    Caption.HTMLFont.Style = []
+    Caption.Font.Charset = DEFAULT_CHARSET
+    Caption.Font.Color = clWindowText
+    Caption.Font.Height = -16
+    Caption.Font.Name = 'Tahoma'
+    Caption.Font.Style = []
+    Fill.Color = 16445929
+    Fill.ColorTo = 15587527
+    Fill.ColorMirror = 15587527
+    Fill.ColorMirrorTo = 16773863
+    Fill.GradientType = gtVertical
+    Fill.GradientMirrorType = gtVertical
+    Fill.BorderColor = 14922381
+    Fill.Rounding = 3
+    Fill.ShadowColor = clNone
+    Fill.ShadowOffset = 10
+    Fill.Glow = gmNone
+    Version = '1.1.0.0'
+    Align = alClient
+    TabOrder = 0
+    object Img3_Views: TImage
+      Left = 0
+      Top = 0
+      Width = 1136
+      Height = 609
+      Align = alClient
+      Stretch = True
+    end
+    object Lbl0_Views: TLabel
+      Left = 4
+      Top = 5
+      Width = 178
+      Height = 35
+      AutoSize = False
+      Caption = #44221#47196
+      Font.Charset = HANGEUL_CHARSET
+      Font.Color = clMaroon
+      Font.Height = -12
+      Font.Name = #44404#47548#52404
+      Font.Style = [fsBold]
+      ParentFont = False
+      Transparent = True
+      Visible = False
+    end
+  end
+end

@@ -1,0 +1,22 @@
+##파이썬 설치 
+--3.12로 설치해야 함
+1. python -m pip install fastapi uvicorn[standard]
+  - 참고 컨트롤 + 시프트 + p -> Python: Select Interpreter
+2. pip install openai
+3. pip install qdrant-client sentence-transformers
+3. pip install sentence-transformers
+4. pip install cryptography
+5. pip install tiktoken
+6. pip install pyodbc
+7. pip install FlagEmbedding
+8. Docker 설치 (https://www.docker.com/products/docker-desktop/) AMD64로 설치
+
+7. pip install streamlit(뷰인데 일단 보류)
+
+py -3.12 -m pip install fastapi uvicorn[standard]
+py -3.12 -m pip install openai
+py -3.12 -m pip install qdrant-client sentence-transformers
+py -3.12 -m pip install sentence-transformers
+py -3.12 -m pip install cryptography
+py -3.12 -m pip install tiktoken
+py -3.12 -m pip install pyodbc

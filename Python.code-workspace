@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "Python_Common"
+		},
+		{
+			"path": "Python_API"
+		}
+	],
+	"settings": {
+    "python.analysis.extraPaths": [
+      "D:/AIRsViewr/Python_Common"
+    ]
+  }
+}

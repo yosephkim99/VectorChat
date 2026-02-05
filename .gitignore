@@ -1,0 +1,14 @@
+# database files
+*.mdf
+*.ldf
+*.db
+
+# cache
+__pycache__/
+*.pyc
+
+# vscode
+.vscode/
+
+# temp
+*.log
