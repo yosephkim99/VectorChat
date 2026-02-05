@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.backends import default_backend
 
 # GPT API Key
-Ge_client = OpenAI(api_key="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")
+Ge_client = OpenAI(api_key="")
 # GPT 가격
 GPT_PRICE_1K = {
     # 표준 Chat Completions API
